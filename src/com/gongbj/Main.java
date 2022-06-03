@@ -25,7 +25,7 @@ public class Main extends PAppletEventSender {
         addEventListener(mainLayout);
         {
             nodeEditor = new NodeEditor(mainLayout.getInnerContext(), width, height);
-            nodeEditor2 = new NodeEditor(mainLayout.getInnerContext(), width / 2, height);
+            //nodeEditor2 = new NodeEditor(mainLayout.getInnerContext(), width / 2, height);
             nodeEditor.translate(0, 0);
             //nodeEditor2.translate(width / 2, 0);
         }
